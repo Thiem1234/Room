@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="layout.css"/>
+    <script src="jquery.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="xuly.js"></script>
+
+</head>
+<body>
+    <input type="text" id="txtRoom"/>
+    <input type="button" id="btnTaoRoom" value="Tạo room">
+    <div id="left">
+        <h3>Room đang có</h3>
+        <div id="dsRoom"></div>
+    </div>
+    <h4 id="roomHienTai">...</h4>
+    <div id="right">
+        <input type="text" id="txtMessage" />
+        <input type="button" value="Chat" id="btnChat"/>
+    </div>
+</body>
+</html>
